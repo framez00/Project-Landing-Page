@@ -57,6 +57,8 @@ button.signup{
 	border-radius: 8px;
 	width: 100px;
 	height: 30px;
+	cursor: pointer;
+	border-color: #3882F6;
 }
 
 .heroPart .image{
