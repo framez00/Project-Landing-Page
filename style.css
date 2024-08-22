@@ -23,7 +23,6 @@ li a{
 .header{
 	display: flex;
 	background-color: rgb(33, 41, 54);
-	
 	font-size: 18px;
 }
 .logo{
@@ -33,9 +32,10 @@ li a{
 	font-weight: bold;
 }
 
-.heroText,
-.image{
+.heroPart{
+	display: flex;
 	background-color: rgb(33, 41, 54);
+	padding-bottom: 80px;
 }
 
 .heroMain{
@@ -47,5 +47,21 @@ li a{
 .heroSecondary{
 	font-size: 18px;
 	color: #E5E7EB;
+	margin-bottom: 15px;
+	width: 450px;
+}
+
+button.signup{
+	background-color: #3882F6;
+	color: #f9FAF8;
+	border-radius: 8px;
+	width: 100px;
+	height: 30px;
+}
+
+.heroPart .image{
+	margin-top: 60px;
+	margin-left: 90px;
+
 }
 
