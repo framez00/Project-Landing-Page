@@ -35,7 +35,7 @@ li a{
 .heroPart{
 	display: flex;
 	background-color: rgb(33, 41, 54);
-	padding-bottom: 80px;
+	padding-bottom: 150px;
 }
 
 .heroMain{
@@ -64,6 +64,29 @@ button.signup{
 .heroPart .image{
 	margin-top: 60px;
 	margin-left: 90px;
+}
+
+.informationHeader{
+	font-size: 36px;
+	font-weight: bold;
+	color: #1F2937;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.items{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img.content{
 
 }
 
