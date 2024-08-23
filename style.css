@@ -30,6 +30,7 @@ li a{
 	align-content: center;
 	margin-right: auto;
 	font-weight: bold;
+	font-size: 30px;
 }
 .heroPart{
 	display: flex;
